@@ -1,0 +1,78 @@
+*
+*
+G04 PADS VX.2.16 Build Number: 26662711 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "PADS_Schematic_blz.pcb"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD010C,0.001*%
+%ADD019C,0.01*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name PADS_Schematic_blz.pcb - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name PADS_Schematic_blz.pcb - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name PADS_Schematic_blz.pcb - circuitry*
+%LPD*%
+*
+G54D10*
+G54D19*
+G01X100321Y330603D02*
+X360321D01*
+Y100603*
+X100321*
+Y330603*
+X0Y0D02*
+M02*

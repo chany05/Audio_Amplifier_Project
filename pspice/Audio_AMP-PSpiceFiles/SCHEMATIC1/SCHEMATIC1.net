@@ -1,0 +1,12 @@
+* source AUDIO_AMP
+Q_Q1         N14453 N14563 N14579 Q2N3904
+V_V1         N14701 0 9Vdc
+V_V2         N14691 0  AC 1
++SIN 0 1 1k 0 0 0
+R_R2         0 N14563  3.9k TC=0,0 
+R_RC         N14453 N14701  1.8k TC=0,0 
+R_RE         0 N14579  390 TC=0,0 
+R_R1         N14563 N14701  18k TC=0,0 
+C_C1         N14691 N14563  22u  TC=0,0 
+C_C2         0 N14579  500u  TC=0,0 
+.PARAM  vp=0.005
